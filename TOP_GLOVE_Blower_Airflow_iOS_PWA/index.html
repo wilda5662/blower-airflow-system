@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<title>TOP GLOVE Blower Air Flow</title>
+</head>
+<body>
+<header>
+<h1>🌬️ Blower Air Flow</h1>
+<p>TOP GLOVE Measurement System</p>
+</header>
+
+<div class="box">
+<label>Block</label>
+<select><option>Block C</option><option>Block A2</option><option>Block AB</option></select>
+
+<label>Line</label>
+<select><option>DF1</option><option>DF2</option><option>DF14</option><option>SF10</option></select>
+
+<label>Blower</label>
+<input placeholder="Select Oven">
+
+<hr>
+
+<h2>Air Flow Rate (m/s)</h2>
+<label>Door 1</label><input type="number">
+<label>Door 2</label><input type="number">
+<label>Door 3</label><input type="number">
+<label>Door 4</label><input type="number">
+
+<label>Average</label><input readonly>
+
+<label>Temperature °C</label><input type="number">
+
+<button>Save Data</button>
+<button>Export Excel</button>
+</div>
+
+<footer>Created by M/E Trainee - Win</footer>
+
+<script>
+if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js');}
+</script>
+</body>
+</html>
