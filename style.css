@@ -1,0 +1,8 @@
+
+body{font-family:Arial;background:#eef3f8;margin:0}
+header{background:#214b8f;color:white;text-align:center;padding:25px}
+.box{background:white;margin:20px;padding:20px;border-radius:15px}
+label{display:block;font-weight:bold;margin-top:12px}
+input,select{width:100%;padding:12px;border-radius:8px;border:1px solid #ccc}
+button{width:100%;padding:14px;margin-top:15px;background:#214b8f;color:white;border:0;border-radius:10px;font-weight:bold}
+footer{text-align:center;background:#214b8f;color:white;padding:15px}
